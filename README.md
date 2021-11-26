@@ -1,7 +1,5 @@
 # 🔥 Prisma coding challange! 🔥
 Based on Advent of Code 2021,
-By Edison Department.
-![small logo](https://user-images.githubusercontent.com/65134110/143536578-7f3eb78f-24ae-474e-a016-bed5f77e6bf5.png)
 
 
 ### Signing up:
@@ -17,3 +15,10 @@ _input.txt, answer.txt, solution.*_ where: _input.txt_ has your specific puzzle 
 * Of course, you can join the fun and solve puzzels without entering the contest. You don't have to upload your code and neither to join the AoC leaderboard.
 * The winners will be determined based on the AoC leaderboard.
 * Beautiful and creative solutions would be acknowledged and shared so everyone could learn from them. 
+
+
+
+
+
+# By Edison Department
+![small logo](https://user-images.githubusercontent.com/65134110/143536578-7f3eb78f-24ae-474e-a016-bed5f77e6bf5.png)
