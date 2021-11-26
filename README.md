@@ -1,7 +1,8 @@
 # 🔥 Prisma coding challange! 🔥
 Based on Advent of Code 2021,
 By Edison Department.
-![logo resized again](https://user-images.githubusercontent.com/65134110/143536098-ace7a68d-c5dd-4c1b-bb73-896c7a9ae379.png)
+![small logo](https://user-images.githubusercontent.com/65134110/143536578-7f3eb78f-24ae-474e-a016-bed5f77e6bf5.png)
+
 
 ### Signing up:
 Go to the AoC site (![adventofcode.com]), sign up, and go to the "Leaderboard" tab. Click on "Private Leaderboard" and enter the _Join-Code_ that is provided in the WhatsApp group.
