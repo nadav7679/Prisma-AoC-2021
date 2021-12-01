@@ -3,7 +3,7 @@ Based on Advent of Code 2021,
 
 
 ### Signing up:
-Go to the AoC site (![adventofcode.com]), sign up, and go to the "Leaderboard" tab. Click on "Private Leaderboard" and enter the following _Join-Code_: "1525364-55967b56".  
+Go to the AoC site **adventofcode.com**, sign up, and go to the "Leaderboard" tab. Click on "Private Leaderboard" and enter the following _Join-Code_: "1525364-55967b56".  
 The scores are determined by the amount of stars 🌟 each player gets. A tie is broken by the least amount of time that a player got the recent star.
 
 ### Uploading code
