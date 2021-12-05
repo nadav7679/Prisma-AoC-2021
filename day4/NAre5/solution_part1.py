@@ -44,10 +44,10 @@ class BingoBoard:
     def get_score(self):
         return sum([key for key in self.cells.keys() if key not in self.bingod_numbers]) * self.bingod_numbers[-1]
 
-    def get_print_board(self):
-        def f(x):
+    def print_board(self):
+        def sign(x):
             return f'({x})' if x in self.bingod_numbers else f'{x}'
-        return DataFrame(np.vectorize(f, otypes=[str])(self.board))
+        print(DataFrame(np.vectorize(sign, otypes=[str])(self.board)))
 
 
 bingo_boards: List[BingoBoard] = []
@@ -73,7 +73,7 @@ if __name__ == "__main__":
                 print(
                     f'bingo_board number {board_index+1} wins after {round_number} rounds with score {bingo_board.get_score()}!'
                 )
-                # print(bingo_board.get_print_board())
+                # bingo_board.print_board()
                 break
 
         if win:

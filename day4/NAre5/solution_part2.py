@@ -12,9 +12,8 @@ for round_number, draw_number in enumerate(draw_numbers):
                 if len(winned_boards) == len(bingo_boards):
                     print(
                         f'at last... with the number {draw_number}...\n\
-                        bingo_board number {board_index+1} wins after {round_number} rounds with score {bingo_board.get_score()}!'
-                    )
-                    # print(bingo_board.get_print_board())
+                        bingo_board number {board_index+1} wins after {round_number} rounds with score {bingo_board.get_score()}!')
+                    # bingo_board.print_board()
                     break
 
     if len(winned_boards) == len(bingo_boards):
