@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+# TypeScript
+dist/
+tsconfig.json
+package.json
+
 # Distribution / packaging
 .Python
 build/

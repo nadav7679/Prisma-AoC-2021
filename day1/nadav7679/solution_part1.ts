@@ -1,4 +1,5 @@
-const fs = require("fs");
+import * as fs from 'fs'
+
 
 async function getIncrements(data: string[]): Promise<number> {
   const measurements = data
@@ -24,19 +25,20 @@ async function getIncrements(data: string[]): Promise<number> {
   return counter;
 }
 
-fs.readFile(".\\input.txt", "utf8", (err, data: string) => {
+fs.readFile(".\\input.txt", {encoding: "utf8"} , (err: Error, data: string) => {
   if (err) {
     console.log(err);
     return;
   }
   const increments = getIncrements(data.split("\r\n"));
   increments.then((value) => {
-    fs.writeFile("answer_part1.txt", String(value), (err) => {
+    fs.writeFile("answer_part1.txt", String(value), (err: ErrnoException) => {
       if (err) {
         console.log(err);
       }
     });
   });
 });
+
 
 exports.getIncrements = getIncrements
