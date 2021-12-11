@@ -1,0 +1,3 @@
+from solution_part1 import num_depth_window_measurement_inc
+
+print(num_depth_window_measurement_inc(window_size=3))
